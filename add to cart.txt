@@ -1,0 +1,11 @@
+Feature : Add to Cart
+
+As a user I like to checkout in my cart with my selected items
+
+Scenario Test
+Give user at the main page
+When user click the product
+Then the product add in cart
+And user click place order
+Then the user enters all the required form order
+And he successfull purchase that order
